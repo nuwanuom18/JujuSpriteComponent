@@ -1,0 +1,22 @@
+.flipped{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.flippedy{
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.character{
+    background-image: url('./PuppySprite.png');
+    background-position: 0px -64px;
+    width: 82px;
+    height: 58px;
+   animation: walkdog 1s steps(6) infinite;
+}
+
+@keyframes walkdog{
+    100% {background-position: 540px -64px;}
+}
+
