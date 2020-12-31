@@ -16,10 +16,5 @@ storiesOf('PuppySprite', module)
     <PuppySprite flipped={true} />,
     {Info: {header:true, inline: true}}
   )
-  .add(
-    'This is a css animated a puppy with flipedy set.',
-    ()=>
-    <PuppySprite flippedy={true} />,
-    {Info: {header:true, inline: true}}
-  )
+ 
  

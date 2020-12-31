@@ -13,5 +13,5 @@ storiesOf('Julian', module)
   .add(
     'Passing name property and rendering', 
     () => <Julian name="Warren"></Julian>,
-    { info: { inline: true } }
+    { info: {  } }
   );
