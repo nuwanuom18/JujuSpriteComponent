@@ -8,9 +8,9 @@ interface Child {
 export class Julian extends React.Component<Child, {}> {
   render() {
     return (
-        <h2 className={styles.myName}>
+        <div className={styles.myName}>
         <p>My name is: {this.props.name}</p>
-        </h2>
+        </div>
     );
   }
 }
